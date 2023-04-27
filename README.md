@@ -1,5 +1,8 @@
 # Validate emoji in HTML input by JavaScript
 Prevent inserting emoji to an HTML input element and validate the input in JavaScript
+```javascript
+/[\p{Extended_Pictographic}\u{1F3FB}-\u{1F3FF}\u{1F9B0}-\u{1F9B3}]/gu
+```
 <hr/>
 
 # Source
